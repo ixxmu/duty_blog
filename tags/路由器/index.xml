@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>路由器 on 生信文集</title><link>https://ixxmu.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</link><description>Recent content in 路由器 on 生信文集</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ixxmu.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>用 Github actions 编译任意路由器固件</title><link>https://ixxmu.github.io/posts/play/how-to-build-openwrt-using-github-action/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><guid>https://ixxmu.github.io/posts/play/how-to-build-openwrt-using-github-action/</guid><description>给Glinet-MT-300Nv2编译最新xray固件
-Update：10092021
-因为Github限制资源的滥用，所以之前在线编辑config文件并编译的行为失效无法正常进行，请转到 大佬新仓库 继续拉取使用，新的逻辑为第一步仅生成对应设备的config文件，然后获取config内容，第二步将内容写进要编译的固件文件夹下面的 .config 文件，不要打开SSH在线编辑，重新编译即可。
-分割线以下内容依旧有助于理解固件和在线编译的逻辑。
-其实一直手里的Glinet-MT-300Nv2用着还算可以，直到v2ray分支诞生了xtls版的xray，新的配置方式虽然在手机或者电脑端用起来差别不大，但是在路由器端特别是这些个垃圾路由器不带AES解密的设备上就直接拉满了，所以就尝试在很久不更新固件的Glinet-MT-300Nv2上面尝试自己编译固件。
-整个代码来自Github上的 别人项目,但是原作者删库跑路估计是不想折腾了，还是要感谢下大佬。这也提醒我们在Github上fork项目后pull项目前必须看一眼，万一大佬们改变主意失联了呢。</description></item></channel></rss>
+Update：10092021</description></item></channel></rss>
